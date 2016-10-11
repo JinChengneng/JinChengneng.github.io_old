@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.box{
+	height: 200px;
+	width: 400px;
+	background: #ccc;
+
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -200px;
+}
+
+.left-top-area{
+	background: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+}
+
+.right-bottom-area{
+	background: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+footer{
+	padding: 15px;
+	text-align: center;
+	background: #cecece;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}

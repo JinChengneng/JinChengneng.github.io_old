@@ -1,0 +1,163 @@
+/*body*/
+body{
+	font-family:"Microsoft Yahei";
+	margin: 0px;
+	background: #ededed;
+}
+
+/*varbar*/
+header{
+	background: #333;
+	padding: 15px;
+	position: relative;
+}
+
+.navbar-header h1{
+	color: white;
+	font-size: 40px;
+	padding-left: 50px;
+}
+
+.nabar-header{
+	float: left;
+}
+
+.navbar-menu{
+	float: right;
+	position: absolute;
+	bottom: 5%;
+	right: 15%;
+}
+
+.navbar-menu ul li{
+	font-weight: bold;
+	font-size: 120%;
+	line-height: 150%;
+	color: blue;
+}
+
+.navbar-menu ul li a:link{
+	color: blue;
+}
+
+.navbar-menu ul li a: visited{
+	color: blue;
+}
+
+.navbar-menu ul li a:hover{
+	color: white;
+}
+
+.article{
+	width: 65%;
+	background: white;
+	margin: 20px 20px;
+	padding: 30px;
+}
+
+article h1{
+	font-size: 250%;
+}
+
+article h2{
+	font-size: 200%;
+	color: #696969;
+}
+
+.article h3{
+	color: #999;
+}
+
+article p{
+	text-indent: 2em;
+}
+
+.article li{
+	font-weight: bold;
+}
+
+.article table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.article th{
+	background: #333;
+	color: white;
+}
+
+.article td, .article th{
+	text-align: center;
+	border: 1px solid #696969 ;
+}
+
+#article3 img{
+	width: 250px;
+	height: 160px;
+}
+
+#article3{
+	overflow: auto;
+}
+
+figure{
+	float: left;
+}
+
+#lastRow{
+	background: #ddd;
+}
+
+.siderBar{
+	float: right;
+	width: 20%;
+	background: white;
+	margin: 20px 35px;
+	padding: 30px;
+	line-height: 250%;
+}
+
+.control-label{
+	width: 30%;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.control-label:after{
+	content:":";
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+}
+
+textarea{
+	vertical-align: top;
+}
+
+.btn{
+	padding: 10px;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+
+.btn-lg{
+	width: 30%;
+}
+
+.btn-primary{
+	background: #696969;
+	font-weight: bold;
+	font-size: 120%;
+	color: white;
+}
+
+footer{
+	background: #cecece;
+	text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+}
