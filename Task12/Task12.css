@@ -1,0 +1,22 @@
+table thead th{
+	background: black;
+	color: white;
+}
+
+table tr:nth-child(odd){
+	background: #bbb;
+}
+
+table tr:nth-child(-n+3){
+	color: red;
+}
+
+.part2 input{
+	margin: 30px;
+	width: 5%;
+	transition: width 0.5s;
+}
+
+.part2 input:focus{
+	width: 10%;
+}
