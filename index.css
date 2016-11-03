@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+.container{
+	/*background-image: url(/index-background.png); */
+	height: 900px;
+	width: 100%;
+	background-image: url(index-backgroud.png);
+	text-align: center;
+}
+
+h1{
+	padding: 30px;
+}
+
+li{
+	display: inline-block;
+	background: #cccccc;
+	opacity: 0.7;
+	width: 40%;
+	height: 30px;
+	margin: 20px;
+	padding: 20px;
+	font-weight: bolder;
+	border-radius: 10px;
+}
+
+a:link{
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+}
