@@ -1,0 +1,50 @@
+
+#aqi-chart-wrap{
+	position: relative;
+	width: 90%;
+	height: 550px;
+	margin: 50px 5% 20px 5%; 
+	border-left: solid;
+	border-bottom: solid;
+	overflow: hidden;
+}
+
+.aqi-bar{
+	bottom: 0;
+	position: absolute;
+	display:inline-block;  
+	z-index: 0;
+	cursor: pointer;
+    animation: heightAnim .5s ease-in-out;
+}
+
+@keyframes heightAnim {
+    0% {
+        bottom: -300px;
+    }
+    100% {
+        bottom: 0;
+    }
+
+}
+
+
+.title{
+	background: #eee;
+	position: absolute;
+	display: inline-block;
+	border-radius: 5px;	
+	padding: 5px;
+	z-index: 1;
+	display: none;
+}
+
+.form-group{
+	position: relative;
+}
+
+#city-select{
+	position: absolute;
+	display: inline-block;
+	margin-left: 15%; 
+}
