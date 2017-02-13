@@ -15,7 +15,7 @@
 	display:inline-block;  
 	z-index: 0;
 	cursor: pointer;
-    animation: heightAnim .5s ease-in-out;
+    animation: heightAnim 1s ease-in-out;
 }
 
 @keyframes heightAnim {
