@@ -9,13 +9,17 @@
 	overflow: hidden;
 }
 
+h1{
+	margin-bottom: 10px; 
+}
+
 .aqi-bar{
 	bottom: 0;
 	position: absolute;
 	display:inline-block;  
 	z-index: 0;
 	cursor: pointer;
-    animation: heightAnim 1s ease-in-out;
+    animation: heightAnim .5s ease-in-out;
 }
 
 @keyframes heightAnim {
