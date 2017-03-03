@@ -24,6 +24,7 @@ li{
 	padding: 20px;
 	font-weight: bolder;
 	border-radius: 10px;
+	overflow:hidden;
 }
 
 a:link{
