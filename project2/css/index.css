@@ -1,0 +1,63 @@
+body{
+	position: relative;
+}
+
+h2{
+	margin: 30px;
+}
+
+p{
+	margin: 30px;
+}
+
+.navbar{
+	width: 100%;
+	background-color: #eee;
+	height: 50px;
+}
+
+#btn-signIn{
+	margin: 9px;
+}
+
+.mask{
+	width: 100%;
+	background-color: #337ab7;
+	filter:alpha(Opacity=80);
+	 filter: blur(30px);
+	opacity: 0.4;
+	/*display: none;*/
+	z-index: 10;
+	position: absolute;
+	top: 0;
+}
+
+.login-block{
+	background-color: #fff;
+	position: absolute;
+	height: 240px;
+	width: 360px;
+	border:5px solid #2e6da4;
+	border-radius: 20px;
+	display: none;
+	z-index: 11;
+}
+
+h3{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+h4{
+	display: inline-block;
+}
+
+input{
+	margin: 20px;
+}
+
+#btn-close{
+	display: inline-block;
+	margin-left: 230px;
+	margin-top: -20px;
+}
