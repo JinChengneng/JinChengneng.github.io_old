@@ -1,5 +1,5 @@
-var WINDOW_HEIGHT = window.screen.height*0.82;
-var WINDOW_WIDTH  = window.screen.width*0.88;
+var WINDOW_HEIGHT = window.screen.height;
+var WINDOW_WIDTH  = window.screen.width;
 
 var SIDE_LENGTH = WINDOW_WIDTH*0.8/57; 
 
