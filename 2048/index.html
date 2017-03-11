@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="canvas">
+		<div class="header">
+			<h1>2048</h1>
+			<div class="score-block text-center">
+				score <br> <span id="score">0</span>
+			</div>
+			<button type="button" class="btn" id="btn_newGame">New game</button>
+		</div>
+
+		<div class="game-container">
+			<div class="gameOver text-center">
+				<span id="gameOver">Game Over!</span>
+				<br>
+				<button class="btn" type="button" id="btn-restart">play again</button>
+			</div>
+			<div class="grid-cell" id="grid-cell-00"></div>
+			<div class="grid-cell" id="grid-cell-01"></div>
+			<div class="grid-cell" id="grid-cell-02"></div>
+			<div class="grid-cell" id="grid-cell-03"></div>
+			<div class="grid-cell" id="grid-cell-10"></div>
+			<div class="grid-cell" id="grid-cell-11"></div>
+			<div class="grid-cell" id="grid-cell-12"></div>
+			<div class="grid-cell" id="grid-cell-13"></div>
+			<div class="grid-cell" id="grid-cell-20"></div>
+			<div class="grid-cell" id="grid-cell-21"></div>
+			<div class="grid-cell" id="grid-cell-22"></div>
+			<div class="grid-cell" id="grid-cell-23"></div>
+			<div class="grid-cell" id="grid-cell-30"></div>
+			<div class="grid-cell" id="grid-cell-31"></div>
+			<div class="grid-cell" id="grid-cell-32"></div>
+			<div class="grid-cell" id="grid-cell-33"></div>
+
+			<div class="digit-cell" id="digit-cell-00"></div>
+			<div class="digit-cell" id="digit-cell-01"></div>
+			<div class="digit-cell" id="digit-cell-02"></div>
+			<div class="digit-cell" id="digit-cell-03"></div>
+			<div class="digit-cell" id="digit-cell-10"></div>
+			<div class="digit-cell" id="digit-cell-11"></div>
+			<div class="digit-cell" id="digit-cell-12"></div>
+			<div class="digit-cell" id="digit-cell-13"></div>
+			<div class="digit-cell" id="digit-cell-20"></div>
+			<div class="digit-cell" id="digit-cell-21"></div>
+			<div class="digit-cell" id="digit-cell-22"></div>
+			<div class="digit-cell" id="digit-cell-23"></div>
+			<div class="digit-cell" id="digit-cell-30"></div>
+			<div class="digit-cell" id="digit-cell-31"></div>
+			<div class="digit-cell" id="digit-cell-32"></div>
+			<div class="digit-cell" id="digit-cell-33"></div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/index.js"></script>
+</html>

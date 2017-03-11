@@ -1,0 +1,3 @@
+bug：
+1.判断游戏是否结束逻辑有错误
+2.generateRandomDigit()要先判断是否真正发生了移动
