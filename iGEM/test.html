@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+ 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+ 	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+ 	<title>Demo</title>
+
+ 	<style type="text/css">
+ 		*{
+ 			margin:0;
+ 			padding: 0;
+ 			font-family:"Times New Roman",Georgia,Serif;
+ 		}
+
+ 		#navcont { 
+ 			background: #fff; 
+ 			width: 100%;
+ 			height: 78px;
+ 		}
+
+		#nav-logo{
+			width: 78px;
+			height: 100%;
+			float: left;
+			margin-left: 10%;
+		}
+
+		#nav-logo-img{
+			width: 80%;
+			height: 80%;
+			margin: 10%;
+			cursor: pointer;
+		}
+
+ 		#nav { 
+ 			/*font-family: helvetica; */
+ 			position:relative; 
+ 			width:1000px; 
+ 			height:100%; 
+ 			font-size:22px; 
+ 			/*color:#999; */
+			float: right;
+		}
+
+		#nav ul { 
+			list-style-type:none;
+		}
+
+ 		#nav ul li { 
+ 			float:left; 
+ 			position: relative;
+ 		}
+
+ 		#nav ul li a { 
+ 			border-right:1px solid #e9e9e9; 
+ 			padding:20px; 
+ 			display:block; 
+ 			text-decoration:none; 
+ 			text-align:center; 
+ 			color:#999;
+ 		}
+
+ 		#nav ul li a:hover {
+ 			background: #12aeef repeat-x;
+			color:#fff;
+			cursor: pointer;
+		} 
+
+ 		#nav ul li ul {
+ 			display: none;
+ 		}
+
+ 		#nav ul li:hover ul {
+ 			display: block; 
+ 			position: absolute; 
+ 			top:56px; 
+ 			min-width:190px; 
+ 			left:0;
+ 		} 
+
+ 		#nav ul li:hover ul li a {
+ 			display:block; 
+ 			background:#12aeef; 
+ 			color:#ffffff; 
+ 			width: 180px; 
+ 			text-align: center; 
+ 			border-bottom: 1px solid #f2f2f2; 
+ 			border-right: none;
+ 		}
+
+ 		#nav ul li:hover ul li a:hover { 
+ 			background:#6dc7ec; 
+ 			color:#ffffff; 
+ 		}
+
+ 		.borderleft {
+ 			border-left: 1px solid #e9e9e9;
+ 		}
+
+ 		.top { 
+ 			border-top: 1px solid #f2f2f2;
+ 		}
+
+ 		#threestyles {
+ 			width: 500px;
+  			height: 300px;
+  			margin: 0px auto;
+  			border: 2px solid #666;
+  			margin-top: 30px;
+ 		}
+
+ 		.main-menu-block{
+ 			display: none;
+ 			width: 80%;
+ 			margin-top: 20px;
+ 			margin-left: 10%;
+ 		}
+
+ 		#home-block{
+ 			display: block;
+ 		}
+
+ 		.gallery{
+ 			float: left;
+ 			width: 60%;
+ 		}
+
+ 		.right-article{
+ 			float: right;
+ 			width: 40%;
+ 		}
+	</style>
+</head>
+
+<body>
+	<div id="navcont"> 
+		<div id="nav-logo" >
+			<img id="nav-logo-img" onclick="homeBtnClicked()" src="http://www.videoadnews.com/wp-content/uploads/2016/11/apple.png" alt="logo" >
+		</div>
+
+		<div id="nav"> 
+			<ul>
+ 				<li class="borderleft"><a onclick="homeBtnClicked()">Home</a></li>
+ 				<li><a onclick="teamBtnClicked()">Team</a></li>
+ 				<li><a href="http://www.baidu.com" target="_blank">Project</a>
+ 					<ul>
+  	  				<li class="top"><a href="http://www.baidu.com" target="_blank">first_project</a></li>
+ 	  					<li><a href="http://www.baidu.com" target="_blank">second_project</a></li>
+ 	  					<li><a href="http://www.baidu.com" target="_blank">third_project</a></li>
+ 	  					<li><a href="http://www.baidu.com" target="_blank">forth_project</a></li>
+ 	 				</ul>
+ 				</li> 
+ 		
+ 				<li><a href="http://www.baidu.com" target="_blank">Parts</a>
+ 	  				<ul>
+ 	   				<li class="top"><a href="http://www.baidu.com" target="_blank">first_part</a></li>
+	 	   			<li><a href="http://www.baidu.com" target="_blank">second_part</a></li>
+	 		  		</ul>
+ 				</li>
+				<li><a href="http://www.baidu.com" target="_blank">Model</a></li>
+ 				<li><a href="http://www.baidu.com" target="_blank">Human Practice</a></li>
+	 			<li><a href="http://www.baidu.com" target="_blank">Safety</a></li>
+		 		<li><a href="http://www.baidu.com" target="_blank">Notebook</a></li>
+ 				<li><a href="http://www.baidu.com" target="_blank">Judging</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="home-block" class="main-menu-block">
+
+		<div class="pages" id="first-page-of-home">
+			<div class="title" id="title-of-first-page-of-home">
+				<h1 class="text-center">Team Name</h1>		
+			</div>
+			<div class="gallery">
+				<img src="http://bpic.588ku.com/element_origin_min_pic/20/16/01/2656a733629510b.jpg">	
+			</div>
+			<div class="right-article">
+				<p>I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!</p>
+				<p>I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!</p>
+				<p>I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!</p>
+				<p>I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!I'm the paragraph of the first page of home!</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="team-block" class="main-menu-block">
+		<div class="pages" id="first-page-of-team">
+			<div>
+				<h1 class="text-center">Team Introduction</h1>
+			</div>
+			<div class="right-article">
+				<p>I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!</p>
+				<p>I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!</p>
+				<p>I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!</p>
+				<p>I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!</p>
+				<p>I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!I'm the page of team!</p>
+			</div>
+
+			<div class="gallery">
+				<img src="http://bpic.588ku.com/element_origin_min_pic/00/16/05/115732d8145d717.jpg">
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript"> 
+
+		const WINDOWHEIGHT =  window.screen.availHeight;
+		console.log(WINDOWHEIGHT);
+
+		function teamBtnClicked(){
+			$(".main-menu-block").css("display","none");
+			$("#team-block").css("display","block");
+		} 
+
+		function homeBtnClicked(){
+			$(".main-menu-block").css("display","none");
+			$("#home-block").css("display","block");
+		}
+	</script>
+</body>
+</html>
