@@ -1,0 +1,24 @@
+.seat-list{
+    z-index: 2;
+    float: left;
+    width:40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.seat-btn{
+    margin:5px;
+}
+
+.screen{
+    padding-top: 100px;
+}
+
+.cancel-order-btn{
+    margin: 50px 100px 100px 0;
+}
+
+.confirm-order-btn{
+    margin: 50px 100px 100px 150px;    
+}

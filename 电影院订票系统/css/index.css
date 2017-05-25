@@ -1,0 +1,22 @@
+
+.film-list{
+    width: 100%;
+}
+
+.film-box{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    background-color: #f5f4f6;
+    font-size:15px;
+}
+
+.film-post{
+    float: left;
+    margin-right: 20px;
+}
+
+.film-information{
+    padding: 20px;
+}
+
